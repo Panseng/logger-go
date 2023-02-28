@@ -13,7 +13,7 @@ var (
 )
 
 func getDefaultFolder() string {
-	defaultFolder := ".pdr_logger"
+	defaultFolder := ".logger_go"
 	home := os.Getenv("HOME")
 	if home == "" {
 		usr, err := user.Current()
